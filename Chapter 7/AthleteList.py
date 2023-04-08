@@ -21,10 +21,10 @@ def get_file(filename):
         print('File error' + str(err))
 
 
-sarah = get_file('sarah2.txt')
-print(sarah.name + "best 3 records are: " + str(sarah.top_3()))
-
-new_record = Athlete("Violet")
-new_record.extend(["1:2", "4:3", "1-1"])
-print(new_record.name)
-print(new_record.top_3())
+# sarah = get_file('sarah2.txt')
+# print(sarah.name + "best 3 records are: " + str(sarah.top_3()))
+#
+# new_record = Athlete("Violet")
+# new_record.extend(["1:2", "4:3", "1-1"])
+# print(new_record.name)
+# print(new_record.top_3())

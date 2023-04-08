@@ -31,7 +31,7 @@ def put_to_store(file_list):
 def get_from_store():
     all_athlete = {}
     try:
-        with open('ath_pickle.txt','rb') as pickle_file:
+        with open('athletes.pickle.txt','rb') as pickle_file:
             all_athlete = pickle.load(pickle_file)
     except IOError as err:
         print('Error in reading pickle file' + str(err))
